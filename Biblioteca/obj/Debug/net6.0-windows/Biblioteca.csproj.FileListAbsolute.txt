@@ -24,3 +24,29 @@ G:\JAEM\ESTUDIOS\UTEC\PRN I\Proyecto\Biblioteca\bin\Debug\net6.0-windows\runtime
 G:\JAEM\ESTUDIOS\UTEC\PRN I\Proyecto\Biblioteca\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 G:\JAEM\ESTUDIOS\UTEC\PRN I\Proyecto\Biblioteca\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 G:\JAEM\ESTUDIOS\UTEC\PRN I\Proyecto\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.csproj.CopyComplete
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\Biblioteca.exe
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\Biblioteca.deps.json
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\Biblioteca.runtimeconfig.json
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\Biblioteca.dll
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\Biblioteca.pdb
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.csproj.AssemblyReference.cache
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.Form1.resources
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.RegistrarCliente.resources
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.RegistrarLibro.resources
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.csproj.GenerateResource.cache
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.AssemblyInfoInputs.cache
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.AssemblyInfo.cs
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.csproj.CoreCompileInputs.cache
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.csproj.CopyComplete
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.dll
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\refint\Biblioteca.dll
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.pdb
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.genruntimeconfig.cache
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\ref\Biblioteca.dll
