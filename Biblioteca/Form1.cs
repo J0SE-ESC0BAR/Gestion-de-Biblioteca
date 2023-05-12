@@ -1,5 +1,7 @@
-using System.Data.SqlClient;
 using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
+
 namespace Biblioteca
 {
     public partial class Form1 : Form
@@ -8,6 +10,7 @@ namespace Biblioteca
         {
             InitializeComponent();
         }
+
         private void btn_RegistrarCliente_Click(object sender, EventArgs e)
         {
             RegistrarCliente registrarClienteForm = new RegistrarCliente();
@@ -16,8 +19,13 @@ namespace Biblioteca
 
         private void btn_RegistrarLibro_Click(object sender, EventArgs e)
         {
-            RegistrarLibro registrarLibroForm = new RegistrarLibro();
-            registrarLibroForm.ShowDialog();
+            RegistrarLibro registrarLibro = new RegistrarLibro(this);
+            registrarLibro.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

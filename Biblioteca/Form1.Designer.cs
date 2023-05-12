@@ -29,45 +29,49 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            tBox_Titulo_Libro = new TextBox();
-            groupBox1 = new GroupBox();
-            btn_RegistrarLibro = new Button();
+            groupBox_BuscarLibro = new GroupBox();
+            textBox1 = new TextBox();
+            button1 = new Button();
+            radioButton5 = new RadioButton();
+            boton_RegistrarLibro = new Button();
+            radioButton4 = new RadioButton();
+            radioButton3 = new RadioButton();
+            radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
+            dataGridView_LibrosDisponibles = new DataGridView();
+            id_libro = new DataGridViewTextBoxColumn();
+            titulo = new DataGridViewTextBoxColumn();
+            año_publicacion = new DataGridViewTextBoxColumn();
+            boton_EliminarLibro = new Button();
             label11 = new Label();
             label2 = new Label();
-            label14 = new Label();
-            tB_Editorial = new TextBox();
-            label13 = new Label();
-            lB_LibrosDisponibles = new ListBox();
-            tB_AutorLibro = new TextBox();
-            label5 = new Label();
-            cB_GeneroLibro = new ComboBox();
-            label4 = new Label();
-            label3 = new Label();
-            groupBox2 = new GroupBox();
+            label_LibrosDisponibles = new Label();
+            labelBusquedaPor = new Label();
+            groupBox_AsignarPrestamo = new GroupBox();
+            boton_EliminarCliente = new Button();
             label15 = new Label();
             label12 = new Label();
-            btn_RegistrarCliente = new Button();
-            radioButton4 = new RadioButton();
-            btn_PrestarLibro = new Button();
-            dateTimePicker2 = new DateTimePicker();
-            label10 = new Label();
-            label6 = new Label();
-            radioButton1 = new RadioButton();
-            label9 = new Label();
-            radioButton2 = new RadioButton();
-            dateTimePicker1 = new DateTimePicker();
-            radioButton3 = new RadioButton();
-            comboBox2 = new ComboBox();
-            label8 = new Label();
-            textBox3 = new TextBox();
-            label7 = new Label();
-            lB_LibrosPrestados = new ListBox();
-            groupBox3 = new GroupBox();
-            button1 = new Button();
-            button2 = new Button();
-            groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
-            groupBox3.SuspendLayout();
+            boton_RegistrarCliente = new Button();
+            radioButton_Nuevo = new RadioButton();
+            boton_PrestarLibro = new Button();
+            dateTimePicker_FechaDevolucion = new DateTimePicker();
+            label_FechaDevolucion = new Label();
+            label_EstadoEjemplar = new Label();
+            radioButton_Original = new RadioButton();
+            label_FechaPrestamo = new Label();
+            radioButton_Usado = new RadioButton();
+            dateTimePicker_FechaPrestamo = new DateTimePicker();
+            radioButton_Viejo = new RadioButton();
+            comboBox_Cliente = new ComboBox();
+            label_Cliente = new Label();
+            textBox_Ubicacion = new TextBox();
+            labelUbicacion = new Label();
+            listBox_LibrosPrestados = new ListBox();
+            groupBox_ListaLibrosPrestados = new GroupBox();
+            groupBox_BuscarLibro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView_LibrosDisponibles).BeginInit();
+            groupBox_AsignarPrestamo.SuspendLayout();
+            groupBox_ListaLibrosPrestados.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -80,50 +84,156 @@
             label1.TabIndex = 2;
             label1.Text = "Sistema de biblioteca";
             // 
-            // tBox_Titulo_Libro
+            // groupBox_BuscarLibro
             // 
-            tBox_Titulo_Libro.Location = new Point(94, 34);
-            tBox_Titulo_Libro.Name = "tBox_Titulo_Libro";
-            tBox_Titulo_Libro.Size = new Size(121, 27);
-            tBox_Titulo_Libro.TabIndex = 3;
+            groupBox_BuscarLibro.Controls.Add(textBox1);
+            groupBox_BuscarLibro.Controls.Add(button1);
+            groupBox_BuscarLibro.Controls.Add(radioButton5);
+            groupBox_BuscarLibro.Controls.Add(boton_RegistrarLibro);
+            groupBox_BuscarLibro.Controls.Add(radioButton4);
+            groupBox_BuscarLibro.Controls.Add(radioButton3);
+            groupBox_BuscarLibro.Controls.Add(radioButton2);
+            groupBox_BuscarLibro.Controls.Add(radioButton1);
+            groupBox_BuscarLibro.Controls.Add(dataGridView_LibrosDisponibles);
+            groupBox_BuscarLibro.Controls.Add(boton_EliminarLibro);
+            groupBox_BuscarLibro.Controls.Add(label11);
+            groupBox_BuscarLibro.Controls.Add(label2);
+            groupBox_BuscarLibro.Controls.Add(label_LibrosDisponibles);
+            groupBox_BuscarLibro.Controls.Add(labelBusquedaPor);
+            groupBox_BuscarLibro.Location = new Point(32, 57);
+            groupBox_BuscarLibro.Name = "groupBox_BuscarLibro";
+            groupBox_BuscarLibro.Size = new Size(594, 187);
+            groupBox_BuscarLibro.TabIndex = 4;
+            groupBox_BuscarLibro.TabStop = false;
+            groupBox_BuscarLibro.Text = "Busqueda de libro";
             // 
-            // groupBox1
+            // textBox1
             // 
-            groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(btn_RegistrarLibro);
-            groupBox1.Controls.Add(label11);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(label14);
-            groupBox1.Controls.Add(tB_Editorial);
-            groupBox1.Controls.Add(label13);
-            groupBox1.Controls.Add(lB_LibrosDisponibles);
-            groupBox1.Controls.Add(tB_AutorLibro);
-            groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(cB_GeneroLibro);
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(tBox_Titulo_Libro);
-            groupBox1.Location = new Point(32, 57);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(510, 187);
-            groupBox1.TabIndex = 4;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Busqueda de libro";
+            textBox1.Location = new Point(103, 104);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 27);
+            textBox1.TabIndex = 24;
             // 
-            // btn_RegistrarLibro
+            // button1
             // 
-            btn_RegistrarLibro.Location = new Point(391, 77);
-            btn_RegistrarLibro.Name = "btn_RegistrarLibro";
-            btn_RegistrarLibro.Size = new Size(91, 52);
-            btn_RegistrarLibro.TabIndex = 16;
-            btn_RegistrarLibro.Text = "Registrar libro";
-            btn_RegistrarLibro.UseVisualStyleBackColor = true;
-            btn_RegistrarLibro.Click += btn_RegistrarLibro_Click;
+            button1.Location = new Point(110, 138);
+            button1.Name = "button1";
+            button1.Size = new Size(86, 27);
+            button1.TabIndex = 23;
+            button1.Text = "Buscar";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            radioButton5.AutoSize = true;
+            radioButton5.Location = new Point(14, 118);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(54, 24);
+            radioButton5.TabIndex = 22;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "Año";
+            radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // boton_RegistrarLibro
+            // 
+            boton_RegistrarLibro.Location = new Point(489, 83);
+            boton_RegistrarLibro.Name = "boton_RegistrarLibro";
+            boton_RegistrarLibro.Size = new Size(91, 52);
+            boton_RegistrarLibro.TabIndex = 16;
+            boton_RegistrarLibro.Text = "Registrar libro";
+            boton_RegistrarLibro.UseVisualStyleBackColor = true;
+            boton_RegistrarLibro.Click += btn_RegistrarLibro_Click;
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(14, 138);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(83, 24);
+            radioButton4.TabIndex = 21;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "Editorial";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Location = new Point(14, 97);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(64, 24);
+            radioButton3.TabIndex = 20;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Autor";
+            radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(14, 77);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(65, 24);
+            radioButton2.TabIndex = 19;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Titulo";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(14, 57);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(42, 24);
+            radioButton1.TabIndex = 18;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "ID";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView_LibrosDisponibles
+            // 
+            dataGridView_LibrosDisponibles.AllowUserToAddRows = false;
+            dataGridView_LibrosDisponibles.AllowUserToDeleteRows = false;
+            dataGridView_LibrosDisponibles.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView_LibrosDisponibles.Columns.AddRange(new DataGridViewColumn[] { id_libro, titulo, año_publicacion });
+            dataGridView_LibrosDisponibles.Location = new Point(226, 57);
+            dataGridView_LibrosDisponibles.Name = "dataGridView_LibrosDisponibles";
+            dataGridView_LibrosDisponibles.ReadOnly = true;
+            dataGridView_LibrosDisponibles.RowTemplate.Height = 29;
+            dataGridView_LibrosDisponibles.Size = new Size(249, 109);
+            dataGridView_LibrosDisponibles.TabIndex = 9;
+            // 
+            // id_libro
+            // 
+            id_libro.HeaderText = "ID";
+            id_libro.Name = "id_libro";
+            id_libro.ReadOnly = true;
+            id_libro.Width = 40;
+            // 
+            // titulo
+            // 
+            titulo.HeaderText = "Titulo";
+            titulo.Name = "titulo";
+            titulo.ReadOnly = true;
+            // 
+            // año_publicacion
+            // 
+            año_publicacion.HeaderText = "Año";
+            año_publicacion.Name = "año_publicacion";
+            año_publicacion.ReadOnly = true;
+            año_publicacion.Width = 45;
+            // 
+            // boton_EliminarLibro
+            // 
+            boton_EliminarLibro.Location = new Point(489, 135);
+            boton_EliminarLibro.Name = "boton_EliminarLibro";
+            boton_EliminarLibro.Size = new Size(91, 28);
+            boton_EliminarLibro.TabIndex = 17;
+            boton_EliminarLibro.Text = "Eliminar";
+            boton_EliminarLibro.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(391, 54);
+            label11.Location = new Point(489, 54);
             label11.Name = "label11";
             label11.Size = new Size(84, 20);
             label11.TabIndex = 15;
@@ -132,114 +242,65 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(391, 34);
+            label2.Location = new Point(489, 34);
             label2.Name = "label2";
             label2.Size = new Size(68, 20);
             label2.TabIndex = 14;
             label2.Text = "Registrar";
             // 
-            // label14
+            // label_LibrosDisponibles
             // 
-            label14.AutoSize = true;
-            label14.Location = new Point(230, 32);
-            label14.Name = "label14";
-            label14.Size = new Size(132, 20);
-            label14.TabIndex = 13;
-            label14.Text = "Libros disponibles:";
+            label_LibrosDisponibles.AutoSize = true;
+            label_LibrosDisponibles.Location = new Point(230, 32);
+            label_LibrosDisponibles.Name = "label_LibrosDisponibles";
+            label_LibrosDisponibles.Size = new Size(132, 20);
+            label_LibrosDisponibles.TabIndex = 13;
+            label_LibrosDisponibles.Text = "Libros disponibles:";
             // 
-            // tB_Editorial
+            // labelBusquedaPor
             // 
-            tB_Editorial.Location = new Point(94, 139);
-            tB_Editorial.Name = "tB_Editorial";
-            tB_Editorial.Size = new Size(121, 27);
-            tB_Editorial.TabIndex = 12;
+            labelBusquedaPor.AutoSize = true;
+            labelBusquedaPor.Location = new Point(14, 32);
+            labelBusquedaPor.Name = "labelBusquedaPor";
+            labelBusquedaPor.Size = new Size(104, 20);
+            labelBusquedaPor.TabIndex = 4;
+            labelBusquedaPor.Text = "Busqueda por:";
             // 
-            // label13
+            // groupBox_AsignarPrestamo
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(7, 144);
-            label13.Name = "label13";
-            label13.Size = new Size(68, 20);
-            label13.TabIndex = 11;
-            label13.Text = "Editorial:";
+            groupBox_AsignarPrestamo.Controls.Add(boton_EliminarCliente);
+            groupBox_AsignarPrestamo.Controls.Add(label15);
+            groupBox_AsignarPrestamo.Controls.Add(label12);
+            groupBox_AsignarPrestamo.Controls.Add(boton_RegistrarCliente);
+            groupBox_AsignarPrestamo.Controls.Add(radioButton_Nuevo);
+            groupBox_AsignarPrestamo.Controls.Add(boton_PrestarLibro);
+            groupBox_AsignarPrestamo.Controls.Add(dateTimePicker_FechaDevolucion);
+            groupBox_AsignarPrestamo.Controls.Add(label_FechaDevolucion);
+            groupBox_AsignarPrestamo.Controls.Add(label_EstadoEjemplar);
+            groupBox_AsignarPrestamo.Controls.Add(radioButton_Original);
+            groupBox_AsignarPrestamo.Controls.Add(label_FechaPrestamo);
+            groupBox_AsignarPrestamo.Controls.Add(radioButton_Usado);
+            groupBox_AsignarPrestamo.Controls.Add(dateTimePicker_FechaPrestamo);
+            groupBox_AsignarPrestamo.Controls.Add(radioButton_Viejo);
+            groupBox_AsignarPrestamo.Controls.Add(comboBox_Cliente);
+            groupBox_AsignarPrestamo.Controls.Add(label_Cliente);
+            groupBox_AsignarPrestamo.Controls.Add(textBox_Ubicacion);
+            groupBox_AsignarPrestamo.Controls.Add(labelUbicacion);
+            groupBox_AsignarPrestamo.Location = new Point(32, 261);
+            groupBox_AsignarPrestamo.Name = "groupBox_AsignarPrestamo";
+            groupBox_AsignarPrestamo.Size = new Size(594, 272);
+            groupBox_AsignarPrestamo.TabIndex = 6;
+            groupBox_AsignarPrestamo.TabStop = false;
+            groupBox_AsignarPrestamo.Text = "Prestamo de ejemplar";
             // 
-            // lB_LibrosDisponibles
+            // boton_EliminarCliente
             // 
-            lB_LibrosDisponibles.FormattingEnabled = true;
-            lB_LibrosDisponibles.ItemHeight = 20;
-            lB_LibrosDisponibles.Location = new Point(229, 59);
-            lB_LibrosDisponibles.Name = "lB_LibrosDisponibles";
-            lB_LibrosDisponibles.Size = new Size(147, 104);
-            lB_LibrosDisponibles.TabIndex = 10;
-            // 
-            // tB_AutorLibro
-            // 
-            tB_AutorLibro.Location = new Point(94, 104);
-            tB_AutorLibro.Name = "tB_AutorLibro";
-            tB_AutorLibro.Size = new Size(121, 27);
-            tB_AutorLibro.TabIndex = 8;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(7, 109);
-            label5.Name = "label5";
-            label5.Size = new Size(49, 20);
-            label5.TabIndex = 7;
-            label5.Text = "Autor:";
-            // 
-            // cB_GeneroLibro
-            // 
-            cB_GeneroLibro.FormattingEnabled = true;
-            cB_GeneroLibro.Location = new Point(94, 67);
-            cB_GeneroLibro.Name = "cB_GeneroLibro";
-            cB_GeneroLibro.Size = new Size(121, 28);
-            cB_GeneroLibro.TabIndex = 6;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(7, 77);
-            label4.Name = "label4";
-            label4.Size = new Size(60, 20);
-            label4.TabIndex = 5;
-            label4.Text = "Genero:";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(7, 41);
-            label3.Name = "label3";
-            label3.Size = new Size(50, 20);
-            label3.TabIndex = 4;
-            label3.Text = "Titulo:";
-            // 
-            // groupBox2
-            // 
-            groupBox2.Controls.Add(button2);
-            groupBox2.Controls.Add(label15);
-            groupBox2.Controls.Add(label12);
-            groupBox2.Controls.Add(btn_RegistrarCliente);
-            groupBox2.Controls.Add(radioButton4);
-            groupBox2.Controls.Add(btn_PrestarLibro);
-            groupBox2.Controls.Add(dateTimePicker2);
-            groupBox2.Controls.Add(label10);
-            groupBox2.Controls.Add(label6);
-            groupBox2.Controls.Add(radioButton1);
-            groupBox2.Controls.Add(label9);
-            groupBox2.Controls.Add(radioButton2);
-            groupBox2.Controls.Add(dateTimePicker1);
-            groupBox2.Controls.Add(radioButton3);
-            groupBox2.Controls.Add(comboBox2);
-            groupBox2.Controls.Add(label8);
-            groupBox2.Controls.Add(textBox3);
-            groupBox2.Controls.Add(label7);
-            groupBox2.Location = new Point(32, 261);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(510, 272);
-            groupBox2.TabIndex = 6;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Prestamo de ejemplar";
+            boton_EliminarCliente.Location = new Point(242, 25);
+            boton_EliminarCliente.Name = "boton_EliminarCliente";
+            boton_EliminarCliente.Size = new Size(91, 28);
+            boton_EliminarCliente.TabIndex = 18;
+            boton_EliminarCliente.Text = "Eliminar";
+            boton_EliminarCliente.UseVisualStyleBackColor = true;
             // 
             // label15
             // 
@@ -259,237 +320,231 @@
             label12.TabIndex = 20;
             label12.Text = "¿Nuevo cliente?";
             // 
-            // btn_RegistrarCliente
+            // boton_RegistrarCliente
             // 
-            btn_RegistrarCliente.Location = new Point(368, 66);
-            btn_RegistrarCliente.Name = "btn_RegistrarCliente";
-            btn_RegistrarCliente.Size = new Size(91, 49);
-            btn_RegistrarCliente.TabIndex = 19;
-            btn_RegistrarCliente.Text = "Registrar cliente";
-            btn_RegistrarCliente.UseVisualStyleBackColor = true;
-            btn_RegistrarCliente.Click += btn_RegistrarCliente_Click;
+            boton_RegistrarCliente.Location = new Point(368, 66);
+            boton_RegistrarCliente.Name = "boton_RegistrarCliente";
+            boton_RegistrarCliente.Size = new Size(91, 49);
+            boton_RegistrarCliente.TabIndex = 19;
+            boton_RegistrarCliente.Text = "Registrar cliente";
+            boton_RegistrarCliente.UseVisualStyleBackColor = true;
+            boton_RegistrarCliente.Click += btn_RegistrarCliente_Click;
             // 
-            // radioButton4
+            // radioButton_Nuevo
             // 
-            radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(103, 132);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(70, 24);
-            radioButton4.TabIndex = 13;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "Nuevo";
-            radioButton4.UseVisualStyleBackColor = true;
+            radioButton_Nuevo.AutoSize = true;
+            radioButton_Nuevo.Location = new Point(103, 132);
+            radioButton_Nuevo.Name = "radioButton_Nuevo";
+            radioButton_Nuevo.Size = new Size(70, 24);
+            radioButton_Nuevo.TabIndex = 13;
+            radioButton_Nuevo.TabStop = true;
+            radioButton_Nuevo.Text = "Nuevo";
+            radioButton_Nuevo.UseVisualStyleBackColor = true;
             // 
-            // btn_PrestarLibro
+            // boton_PrestarLibro
             // 
-            btn_PrestarLibro.Location = new Point(391, 203);
-            btn_PrestarLibro.Name = "btn_PrestarLibro";
-            btn_PrestarLibro.Size = new Size(108, 53);
-            btn_PrestarLibro.TabIndex = 12;
-            btn_PrestarLibro.Text = "Prestar Ejemplar";
-            btn_PrestarLibro.UseVisualStyleBackColor = true;
+            boton_PrestarLibro.Location = new Point(391, 203);
+            boton_PrestarLibro.Name = "boton_PrestarLibro";
+            boton_PrestarLibro.Size = new Size(108, 53);
+            boton_PrestarLibro.TabIndex = 12;
+            boton_PrestarLibro.Text = "Prestar Ejemplar";
+            boton_PrestarLibro.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker2
+            // dateTimePicker_FechaDevolucion
             // 
-            dateTimePicker2.Location = new Point(170, 231);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(200, 27);
-            dateTimePicker2.TabIndex = 11;
+            dateTimePicker_FechaDevolucion.Location = new Point(170, 231);
+            dateTimePicker_FechaDevolucion.Name = "dateTimePicker_FechaDevolucion";
+            dateTimePicker_FechaDevolucion.Size = new Size(200, 27);
+            dateTimePicker_FechaDevolucion.TabIndex = 11;
             // 
-            // label10
+            // label_FechaDevolucion
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(7, 236);
-            label10.Name = "label10";
-            label10.Size = new Size(148, 20);
-            label10.TabIndex = 10;
-            label10.Text = "Fecha de devolucion:";
+            label_FechaDevolucion.AutoSize = true;
+            label_FechaDevolucion.Location = new Point(7, 236);
+            label_FechaDevolucion.Name = "label_FechaDevolucion";
+            label_FechaDevolucion.Size = new Size(148, 20);
+            label_FechaDevolucion.TabIndex = 10;
+            label_FechaDevolucion.Text = "Fecha de devolucion:";
             // 
-            // label6
+            // label_EstadoEjemplar
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(6, 106);
-            label6.Name = "label6";
-            label6.Size = new Size(141, 20);
-            label6.TabIndex = 3;
-            label6.Text = "Estado de ejemplar:";
+            label_EstadoEjemplar.AutoSize = true;
+            label_EstadoEjemplar.Location = new Point(6, 106);
+            label_EstadoEjemplar.Name = "label_EstadoEjemplar";
+            label_EstadoEjemplar.Size = new Size(141, 20);
+            label_EstadoEjemplar.TabIndex = 3;
+            label_EstadoEjemplar.Text = "Estado de ejemplar:";
             // 
-            // radioButton1
+            // radioButton_Original
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(14, 132);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(80, 24);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Original";
-            radioButton1.UseVisualStyleBackColor = true;
+            radioButton_Original.AutoSize = true;
+            radioButton_Original.Location = new Point(14, 132);
+            radioButton_Original.Name = "radioButton_Original";
+            radioButton_Original.Size = new Size(80, 24);
+            radioButton_Original.TabIndex = 0;
+            radioButton_Original.TabStop = true;
+            radioButton_Original.Text = "Original";
+            radioButton_Original.UseVisualStyleBackColor = true;
             // 
-            // label9
+            // label_FechaPrestamo
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(7, 203);
-            label9.Name = "label9";
-            label9.Size = new Size(138, 20);
-            label9.TabIndex = 9;
-            label9.Text = "Fecha de prestamo:";
+            label_FechaPrestamo.AutoSize = true;
+            label_FechaPrestamo.Location = new Point(7, 203);
+            label_FechaPrestamo.Name = "label_FechaPrestamo";
+            label_FechaPrestamo.Size = new Size(138, 20);
+            label_FechaPrestamo.TabIndex = 9;
+            label_FechaPrestamo.Text = "Fecha de prestamo:";
             // 
-            // radioButton2
+            // radioButton_Usado
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(14, 160);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(69, 24);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Usado";
-            radioButton2.UseVisualStyleBackColor = true;
+            radioButton_Usado.AutoSize = true;
+            radioButton_Usado.Location = new Point(14, 160);
+            radioButton_Usado.Name = "radioButton_Usado";
+            radioButton_Usado.Size = new Size(69, 24);
+            radioButton_Usado.TabIndex = 1;
+            radioButton_Usado.TabStop = true;
+            radioButton_Usado.Text = "Usado";
+            radioButton_Usado.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // dateTimePicker_FechaPrestamo
             // 
-            dateTimePicker1.Location = new Point(170, 198);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 27);
-            dateTimePicker1.TabIndex = 8;
+            dateTimePicker_FechaPrestamo.Location = new Point(170, 198);
+            dateTimePicker_FechaPrestamo.Name = "dateTimePicker_FechaPrestamo";
+            dateTimePicker_FechaPrestamo.Size = new Size(200, 27);
+            dateTimePicker_FechaPrestamo.TabIndex = 8;
             // 
-            // radioButton3
+            // radioButton_Viejo
             // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(103, 160);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(61, 24);
-            radioButton3.TabIndex = 2;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "Viejo";
-            radioButton3.UseVisualStyleBackColor = true;
+            radioButton_Viejo.AutoSize = true;
+            radioButton_Viejo.Location = new Point(103, 160);
+            radioButton_Viejo.Name = "radioButton_Viejo";
+            radioButton_Viejo.Size = new Size(61, 24);
+            radioButton_Viejo.TabIndex = 2;
+            radioButton_Viejo.TabStop = true;
+            radioButton_Viejo.Text = "Viejo";
+            radioButton_Viejo.UseVisualStyleBackColor = true;
             // 
-            // comboBox2
+            // comboBox_Cliente
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(87, 26);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(149, 28);
-            comboBox2.TabIndex = 7;
+            comboBox_Cliente.FormattingEnabled = true;
+            comboBox_Cliente.Location = new Point(87, 26);
+            comboBox_Cliente.Name = "comboBox_Cliente";
+            comboBox_Cliente.Size = new Size(149, 28);
+            comboBox_Cliente.TabIndex = 7;
             // 
-            // label8
+            // label_Cliente
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(6, 34);
-            label8.Name = "label8";
-            label8.Size = new Size(58, 20);
-            label8.TabIndex = 6;
-            label8.Text = "Cliente:";
+            label_Cliente.AutoSize = true;
+            label_Cliente.Location = new Point(6, 34);
+            label_Cliente.Name = "label_Cliente";
+            label_Cliente.Size = new Size(58, 20);
+            label_Cliente.TabIndex = 6;
+            label_Cliente.Text = "Cliente:";
             // 
-            // textBox3
+            // textBox_Ubicacion
             // 
-            textBox3.Location = new Point(87, 60);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(149, 27);
-            textBox3.TabIndex = 5;
+            textBox_Ubicacion.Location = new Point(87, 60);
+            textBox_Ubicacion.Name = "textBox_Ubicacion";
+            textBox_Ubicacion.Size = new Size(149, 27);
+            textBox_Ubicacion.TabIndex = 5;
             // 
-            // label7
+            // labelUbicacion
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(6, 66);
-            label7.Name = "label7";
-            label7.Size = new Size(78, 20);
-            label7.TabIndex = 4;
-            label7.Text = "Ubicacion:";
+            labelUbicacion.AutoSize = true;
+            labelUbicacion.Location = new Point(6, 66);
+            labelUbicacion.Name = "labelUbicacion";
+            labelUbicacion.Size = new Size(78, 20);
+            labelUbicacion.TabIndex = 4;
+            labelUbicacion.Text = "Ubicacion:";
             // 
-            // lB_LibrosPrestados
+            // listBox_LibrosPrestados
             // 
-            lB_LibrosPrestados.FormattingEnabled = true;
-            lB_LibrosPrestados.ItemHeight = 20;
-            lB_LibrosPrestados.Location = new Point(6, 26);
-            lB_LibrosPrestados.Name = "lB_LibrosPrestados";
-            lB_LibrosPrestados.Size = new Size(471, 444);
-            lB_LibrosPrestados.TabIndex = 7;
+            listBox_LibrosPrestados.FormattingEnabled = true;
+            listBox_LibrosPrestados.ItemHeight = 20;
+            listBox_LibrosPrestados.Location = new Point(6, 26);
+            listBox_LibrosPrestados.Name = "listBox_LibrosPrestados";
+            listBox_LibrosPrestados.Size = new Size(471, 444);
+            listBox_LibrosPrestados.TabIndex = 7;
             // 
-            // groupBox3
+            // groupBox_ListaLibrosPrestados
             // 
-            groupBox3.Controls.Add(lB_LibrosPrestados);
-            groupBox3.Location = new Point(548, 57);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(483, 476);
-            groupBox3.TabIndex = 8;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Libros prestados";
-            // 
-            // button1
-            // 
-            button1.Location = new Point(391, 135);
-            button1.Name = "button1";
-            button1.Size = new Size(91, 28);
-            button1.TabIndex = 17;
-            button1.Text = "Eliminar";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(242, 25);
-            button2.Name = "button2";
-            button2.Size = new Size(91, 28);
-            button2.TabIndex = 18;
-            button2.Text = "Eliminar";
-            button2.UseVisualStyleBackColor = true;
+            groupBox_ListaLibrosPrestados.Controls.Add(listBox_LibrosPrestados);
+            groupBox_ListaLibrosPrestados.Location = new Point(632, 57);
+            groupBox_ListaLibrosPrestados.Name = "groupBox_ListaLibrosPrestados";
+            groupBox_ListaLibrosPrestados.Size = new Size(482, 476);
+            groupBox_ListaLibrosPrestados.TabIndex = 8;
+            groupBox_ListaLibrosPrestados.TabStop = false;
+            groupBox_ListaLibrosPrestados.Text = "Libros prestados";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1075, 621);
-            Controls.Add(groupBox3);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
+            ClientSize = new Size(1126, 621);
+            Controls.Add(groupBox_ListaLibrosPrestados);
+            Controls.Add(groupBox_AsignarPrestamo);
+            Controls.Add(groupBox_BuscarLibro);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Biblioteca";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            groupBox3.ResumeLayout(false);
+            Load += Form1_Load;
+            groupBox_BuscarLibro.ResumeLayout(false);
+            groupBox_BuscarLibro.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView_LibrosDisponibles).EndInit();
+            groupBox_AsignarPrestamo.ResumeLayout(false);
+            groupBox_AsignarPrestamo.PerformLayout();
+            groupBox_ListaLibrosPrestados.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
         private Label label1;
-        private TextBox tBox_Titulo_Libro;
-        private GroupBox groupBox1;
-        private ListBox lB_LibrosDisponibles;
-        private TextBox tB_AutorLibro;
-        private Label label5;
-        private ComboBox cB_GeneroLibro;
-        private Label label4;
-        private Label label3;
-        private GroupBox groupBox2;
-        private Label label6;
-        private RadioButton radioButton3;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
-        private Label label14;
-        private TextBox tB_Editorial;
-        private Label label13;
-        private Button btn_PrestarLibro;
-        private DateTimePicker dateTimePicker2;
-        private Label label10;
-        private Label label9;
-        private DateTimePicker dateTimePicker1;
-        private ComboBox comboBox2;
-        private Label label8;
-        private TextBox textBox3;
-        private Label label7;
-        private Button btn_RegistrarLibro;
+        private TextBox textBox_TituloLibro;
+        private GroupBox groupBox_BuscarLibro;
+        private TextBox textBox_AutorLibro;
+        private Label label_Autor;
+        private ComboBox comboBox_GeneroLibro;
+        private Label label_Genero;
+        private Label labelBusquedaPor;
+        private GroupBox groupBox_AsignarPrestamo;
+        private Label label_EstadoEjemplar;
+        private RadioButton radioButton_Viejo;
+        private RadioButton radioButton_Usado;
+        private RadioButton radioButton_Original;
+        private Label label_LibrosDisponibles;
+        private TextBox textBox_Editorial;
+        private Label label_Editorial;
+        private Button boton_PrestarLibro;
+        private DateTimePicker dateTimePicker_FechaDevolucion;
+        private Label label_FechaDevolucion;
+        private Label label_FechaPrestamo;
+        private DateTimePicker dateTimePicker_FechaPrestamo;
+        private ComboBox comboBox_Cliente;
+        private Label label_Cliente;
+        private TextBox textBox_Ubicacion;
+        private Label labelUbicacion;
+        private Button boton_RegistrarLibro;
         private Label label11;
         private Label label2;
         private Label label15;
         private Label label12;
-        private Button btn_RegistrarCliente;
-        private RadioButton radioButton4;
-        private ListBox lB_LibrosPrestados;
-        private GroupBox groupBox3;
+        private Button boton_RegistrarCliente;
+        private RadioButton radioButton_Nuevo;
+        private ListBox listBox_LibrosPrestados;
+        private GroupBox groupBox_ListaLibrosPrestados;
+        private Button boton_EliminarLibro;
+        private Button boton_EliminarCliente;
+        public DataGridView dataGridView_LibrosDisponibles;
+        private DataGridViewTextBoxColumn id_libro;
+        private DataGridViewTextBoxColumn titulo;
+        private DataGridViewTextBoxColumn año_publicacion;
         private Button button1;
-        private Button button2;
+        private RadioButton radioButton5;
+        private RadioButton radioButton4;
+        private RadioButton radioButton3;
+        private RadioButton radioButton2;
+        private RadioButton radioButton1;
+        private TextBox textBox1;
     }
 }
