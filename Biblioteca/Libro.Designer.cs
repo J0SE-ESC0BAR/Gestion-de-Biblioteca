@@ -145,7 +145,7 @@
             // 
             // button_Registrar
             // 
-            button_Registrar.Location = new Point(214, 351);
+            button_Registrar.Location = new Point(223, 351);
             button_Registrar.Name = "button_Registrar";
             button_Registrar.Size = new Size(96, 32);
             button_Registrar.TabIndex = 3;
@@ -155,7 +155,7 @@
             // 
             // button_Cancelar
             // 
-            button_Cancelar.Location = new Point(52, 351);
+            button_Cancelar.Location = new Point(39, 351);
             button_Cancelar.Name = "button_Cancelar";
             button_Cancelar.Size = new Size(96, 32);
             button_Cancelar.TabIndex = 4;
