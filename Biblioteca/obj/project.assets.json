@@ -470,24 +470,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JOSE ESCOBAR\\.nuget\\packages\\": {}
+    "C:\\Users\\hyoga\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Desktop\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "D:\\Documentos\\GitHub\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "G:\\Desktop\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj",
-      "packagesPath": "C:\\Users\\JOSE ESCOBAR\\.nuget\\packages\\",
-      "outputPath": "G:\\Desktop\\Gestion-de-Biblioteca\\Biblioteca\\obj\\",
+      "projectPath": "D:\\Documentos\\GitHub\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj",
+      "packagesPath": "C:\\Users\\hyoga\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\GitHub\\Gestion-de-Biblioteca\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JOSE ESCOBAR\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\hyoga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -522,6 +524,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.16, 6.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.16, 6.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.16, 6.0.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.16, 6.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

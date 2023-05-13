@@ -55,18 +55,18 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(6, 64);
+            label1.Location = new Point(5, 48);
             label1.Name = "label1";
-            label1.Size = new Size(67, 20);
+            label1.Size = new Size(54, 15);
             label1.TabIndex = 0;
             label1.Text = "Nombre:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(6, 101);
+            label2.Location = new Point(5, 76);
             label2.Name = "label2";
-            label2.Size = new Size(75, 20);
+            label2.Size = new Size(59, 15);
             label2.TabIndex = 1;
             label2.Text = "Apellidos:";
             // 
@@ -84,9 +84,11 @@
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(label2);
-            groupBox1.Location = new Point(29, 106);
+            groupBox1.Location = new Point(25, 80);
+            groupBox1.Margin = new Padding(3, 2, 3, 2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(312, 231);
+            groupBox1.Padding = new Padding(3, 2, 3, 2);
+            groupBox1.Size = new Size(273, 173);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Datos del cliente";
@@ -94,87 +96,94 @@
             // txtId
             // 
             txtId.Enabled = false;
-            txtId.Location = new Point(112, 24);
+            txtId.Location = new Point(98, 18);
+            txtId.Margin = new Padding(3, 2, 3, 2);
             txtId.Name = "txtId";
-            txtId.Size = new Size(164, 27);
+            txtId.Size = new Size(144, 23);
             txtId.TabIndex = 7;
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(112, 193);
+            txtEmail.Location = new Point(98, 145);
+            txtEmail.Margin = new Padding(3, 2, 3, 2);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(164, 27);
+            txtEmail.Size = new Size(144, 23);
             txtEmail.TabIndex = 9;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(6, 27);
+            label6.Location = new Point(5, 20);
             label6.Name = "label6";
-            label6.Size = new Size(25, 20);
+            label6.Size = new Size(20, 15);
             label6.TabIndex = 6;
             label6.Text = "Id:";
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(112, 160);
+            txtTelefono.Location = new Point(98, 120);
+            txtTelefono.Margin = new Padding(3, 2, 3, 2);
             txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new Size(164, 27);
+            txtTelefono.Size = new Size(144, 23);
             txtTelefono.TabIndex = 8;
             // 
             // txtDireccion
             // 
-            txtDireccion.Location = new Point(112, 127);
+            txtDireccion.Location = new Point(98, 95);
+            txtDireccion.Margin = new Padding(3, 2, 3, 2);
             txtDireccion.Name = "txtDireccion";
-            txtDireccion.Size = new Size(164, 27);
+            txtDireccion.Size = new Size(144, 23);
             txtDireccion.TabIndex = 7;
             // 
             // txtApellido
             // 
-            txtApellido.Location = new Point(112, 94);
+            txtApellido.Location = new Point(98, 70);
+            txtApellido.Margin = new Padding(3, 2, 3, 2);
             txtApellido.Name = "txtApellido";
-            txtApellido.Size = new Size(164, 27);
+            txtApellido.Size = new Size(144, 23);
             txtApellido.TabIndex = 6;
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(112, 61);
+            txtNombre.Location = new Point(98, 46);
+            txtNombre.Margin = new Padding(3, 2, 3, 2);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(164, 27);
+            txtNombre.Size = new Size(144, 23);
             txtNombre.TabIndex = 5;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(6, 200);
+            label5.Location = new Point(5, 150);
             label5.Name = "label5";
-            label5.Size = new Size(49, 20);
+            label5.Size = new Size(39, 15);
             label5.TabIndex = 4;
             label5.Text = "Email:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(6, 167);
+            label4.Location = new Point(5, 125);
             label4.Name = "label4";
-            label4.Size = new Size(70, 20);
+            label4.Size = new Size(55, 15);
             label4.TabIndex = 3;
             label4.Text = "Telefono:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(6, 134);
+            label3.Location = new Point(5, 100);
             label3.Name = "label3";
-            label3.Size = new Size(75, 20);
+            label3.Size = new Size(60, 15);
             label3.TabIndex = 2;
             label3.Text = "Direccion:";
             // 
             // btnRegistrar
             // 
-            btnRegistrar.Location = new Point(245, 343);
+            btnRegistrar.Location = new Point(214, 257);
+            btnRegistrar.Margin = new Padding(3, 2, 3, 2);
             btnRegistrar.Name = "btnRegistrar";
-            btnRegistrar.Size = new Size(96, 49);
+            btnRegistrar.Size = new Size(84, 48);
             btnRegistrar.TabIndex = 3;
             btnRegistrar.Text = "Aplicar";
             btnRegistrar.UseVisualStyleBackColor = true;
@@ -182,9 +191,10 @@
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(23, 343);
+            btnCancelar.Location = new Point(20, 257);
+            btnCancelar.Margin = new Padding(3, 2, 3, 2);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(96, 49);
+            btnCancelar.Size = new Size(84, 46);
             btnCancelar.TabIndex = 4;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
@@ -195,9 +205,11 @@
             groupBox2.Controls.Add(radEliminar);
             groupBox2.Controls.Add(radModificar);
             groupBox2.Controls.Add(radAgregar);
-            groupBox2.Location = new Point(23, 12);
+            groupBox2.Location = new Point(20, 9);
+            groupBox2.Margin = new Padding(3, 2, 3, 2);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(326, 74);
+            groupBox2.Padding = new Padding(3, 2, 3, 2);
+            groupBox2.Size = new Size(285, 56);
             groupBox2.TabIndex = 5;
             groupBox2.TabStop = false;
             groupBox2.Text = "Acciones";
@@ -205,9 +217,10 @@
             // radEliminar
             // 
             radEliminar.AutoSize = true;
-            radEliminar.Location = new Point(230, 23);
+            radEliminar.Location = new Point(201, 17);
+            radEliminar.Margin = new Padding(3, 2, 3, 2);
             radEliminar.Name = "radEliminar";
-            radEliminar.Size = new Size(81, 44);
+            radEliminar.Size = new Size(68, 34);
             radEliminar.TabIndex = 2;
             radEliminar.Text = "Eliminar\r\nUsuario";
             radEliminar.UseVisualStyleBackColor = true;
@@ -216,9 +229,10 @@
             // radModificar
             // 
             radModificar.AutoSize = true;
-            radModificar.Location = new Point(121, 23);
+            radModificar.Location = new Point(106, 17);
+            radModificar.Margin = new Padding(3, 2, 3, 2);
             radModificar.Name = "radModificar";
-            radModificar.Size = new Size(91, 44);
+            radModificar.Size = new Size(76, 34);
             radModificar.TabIndex = 1;
             radModificar.Text = "Modificar\r\nUsuario";
             radModificar.UseVisualStyleBackColor = true;
@@ -228,9 +242,10 @@
             // 
             radAgregar.AutoSize = true;
             radAgregar.Checked = true;
-            radAgregar.Location = new Point(6, 23);
+            radAgregar.Location = new Point(5, 17);
+            radAgregar.Margin = new Padding(3, 2, 3, 2);
             radAgregar.Name = "radAgregar";
-            radAgregar.Size = new Size(81, 44);
+            radAgregar.Size = new Size(67, 34);
             radAgregar.TabIndex = 0;
             radAgregar.TabStop = true;
             radAgregar.Text = "Agregar\r\nUsuario";
@@ -239,23 +254,26 @@
             // 
             // button1
             // 
-            button1.Location = new Point(139, 343);
+            button1.Location = new Point(122, 257);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(96, 49);
+            button1.Size = new Size(84, 48);
             button1.TabIndex = 6;
             button1.Text = "Mostrar\r\nusuarios";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Usuario
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(364, 405);
+            ClientSize = new Size(318, 314);
             Controls.Add(button1);
             Controls.Add(groupBox2);
             Controls.Add(btnCancelar);
             Controls.Add(btnRegistrar);
             Controls.Add(groupBox1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Usuario";
             Text = "Registro del Usuario";
             groupBox1.ResumeLayout(false);
