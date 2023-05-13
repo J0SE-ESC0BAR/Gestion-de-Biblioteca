@@ -36,11 +36,6 @@
             button1 = new Button();
             radioButton5 = new RadioButton();
             dataGridView_LibrosDisponibles = new DataGridView();
-            id_libro = new DataGridViewTextBoxColumn();
-            titulo = new DataGridViewTextBoxColumn();
-            autor = new DataGridViewTextBoxColumn();
-            año_publicacion = new DataGridViewTextBoxColumn();
-            editorial = new DataGridViewTextBoxColumn();
             radioButton4 = new RadioButton();
             radioButton3 = new RadioButton();
             radioButton2 = new RadioButton();
@@ -66,6 +61,11 @@
             dataGridView1 = new DataGridView();
             button2 = new Button();
             button3 = new Button();
+            id_libro = new DataGridViewTextBoxColumn();
+            titulo = new DataGridViewTextBoxColumn();
+            autor = new DataGridViewTextBoxColumn();
+            año_publicacion = new DataGridViewTextBoxColumn();
+            editorial = new DataGridViewTextBoxColumn();
             groupBox_BuscarLibro.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView_LibrosDisponibles).BeginInit();
             groupBox_AsignarPrestamo.SuspendLayout();
@@ -166,41 +166,6 @@
             dataGridView_LibrosDisponibles.RowTemplate.Height = 29;
             dataGridView_LibrosDisponibles.Size = new Size(446, 139);
             dataGridView_LibrosDisponibles.TabIndex = 9;
-            // 
-            // id_libro
-            // 
-            id_libro.HeaderText = "ID";
-            id_libro.Name = "id_libro";
-            id_libro.ReadOnly = true;
-            id_libro.Width = 40;
-            // 
-            // titulo
-            // 
-            titulo.HeaderText = "Titulo";
-            titulo.Name = "titulo";
-            titulo.ReadOnly = true;
-            titulo.Width = 140;
-            // 
-            // autor
-            // 
-            autor.HeaderText = "Autor";
-            autor.Name = "autor";
-            autor.ReadOnly = true;
-            autor.Width = 75;
-            // 
-            // año_publicacion
-            // 
-            año_publicacion.HeaderText = "Año";
-            año_publicacion.Name = "año_publicacion";
-            año_publicacion.ReadOnly = true;
-            año_publicacion.Width = 63;
-            // 
-            // editorial
-            // 
-            editorial.HeaderText = "Editorial";
-            editorial.Name = "editorial";
-            editorial.ReadOnly = true;
-            editorial.Width = 85;
             // 
             // radioButton4
             // 
@@ -453,6 +418,41 @@
             button3.Text = "Modificar";
             button3.UseVisualStyleBackColor = true;
             // 
+            // id_libro
+            // 
+            id_libro.HeaderText = "ID";
+            id_libro.Name = "id_libro";
+            id_libro.ReadOnly = true;
+            id_libro.Width = 40;
+            // 
+            // titulo
+            // 
+            titulo.HeaderText = "Titulo";
+            titulo.Name = "titulo";
+            titulo.ReadOnly = true;
+            titulo.Width = 140;
+            // 
+            // autor
+            // 
+            autor.HeaderText = "Autor";
+            autor.Name = "autor";
+            autor.ReadOnly = true;
+            autor.Width = 75;
+            // 
+            // año_publicacion
+            // 
+            año_publicacion.HeaderText = "Año";
+            año_publicacion.Name = "año_publicacion";
+            año_publicacion.ReadOnly = true;
+            año_publicacion.Width = 63;
+            // 
+            // editorial
+            // 
+            editorial.HeaderText = "Editorial";
+            editorial.Name = "editorial";
+            editorial.ReadOnly = true;
+            editorial.Width = 85;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -518,12 +518,12 @@
         private Button btn_mdificarLibro;
         private TextBox textBox2;
         private Label label3;
+        private Label label2;
+        private Button btn_mdificarUsuario;
         private DataGridViewTextBoxColumn id_libro;
         private DataGridViewTextBoxColumn titulo;
         private DataGridViewTextBoxColumn autor;
         private DataGridViewTextBoxColumn año_publicacion;
         private DataGridViewTextBoxColumn editorial;
-        private Label label2;
-        private Button btn_mdificarUsuario;
     }
 }

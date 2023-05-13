@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\JAEM\\ESTUDIOS\\PROGRAMACION\\C#\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj": {}
+    "G:\\Desktop\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "G:\\JAEM\\ESTUDIOS\\PROGRAMACION\\C#\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj": {
+    "G:\\Desktop\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\JAEM\\ESTUDIOS\\PROGRAMACION\\C#\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "G:\\Desktop\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "G:\\JAEM\\ESTUDIOS\\PROGRAMACION\\C#\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "G:\\Desktop\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\JOSE ESCOBAR\\.nuget\\packages\\",
-        "outputPath": "G:\\JAEM\\ESTUDIOS\\PROGRAMACION\\C#\\Gestion-de-Biblioteca\\Biblioteca\\obj\\",
+        "outputPath": "G:\\Desktop\\Gestion-de-Biblioteca\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JOSE ESCOBAR\\AppData\\Roaming\\NuGet\\NuGet.Config"

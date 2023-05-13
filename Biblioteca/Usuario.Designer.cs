@@ -47,6 +47,7 @@
             radEliminar = new RadioButton();
             radModificar = new RadioButton();
             radAgregar = new RadioButton();
+            button1 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -171,9 +172,9 @@
             // 
             // btnRegistrar
             // 
-            btnRegistrar.Location = new Point(232, 343);
+            btnRegistrar.Location = new Point(245, 343);
             btnRegistrar.Name = "btnRegistrar";
-            btnRegistrar.Size = new Size(96, 32);
+            btnRegistrar.Size = new Size(96, 49);
             btnRegistrar.TabIndex = 3;
             btnRegistrar.Text = "Aplicar";
             btnRegistrar.UseVisualStyleBackColor = true;
@@ -181,9 +182,9 @@
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(47, 343);
+            btnCancelar.Location = new Point(23, 343);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(96, 32);
+            btnCancelar.Size = new Size(96, 49);
             btnCancelar.TabIndex = 4;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
@@ -208,7 +209,7 @@
             radEliminar.Name = "radEliminar";
             radEliminar.Size = new Size(81, 44);
             radEliminar.TabIndex = 2;
-            radEliminar.Text = "Agregar\r\nEliminar";
+            radEliminar.Text = "Eliminar\r\nUsuario";
             radEliminar.UseVisualStyleBackColor = true;
             radEliminar.CheckedChanged += radEliminar_CheckedChanged;
             // 
@@ -219,7 +220,7 @@
             radModificar.Name = "radModificar";
             radModificar.Size = new Size(91, 44);
             radModificar.TabIndex = 1;
-            radModificar.Text = "Agregar\r\nModificar";
+            radModificar.Text = "Modificar\r\nUsuario";
             radModificar.UseVisualStyleBackColor = true;
             radModificar.CheckedChanged += radModificar_CheckedChanged;
             // 
@@ -236,11 +237,21 @@
             radAgregar.UseVisualStyleBackColor = true;
             radAgregar.CheckedChanged += radAgregar_CheckedChanged;
             // 
+            // button1
+            // 
+            button1.Location = new Point(139, 343);
+            button1.Name = "button1";
+            button1.Size = new Size(96, 49);
+            button1.TabIndex = 6;
+            button1.Text = "Mostrar\r\nusuarios";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Usuario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(364, 387);
+            ClientSize = new Size(364, 405);
+            Controls.Add(button1);
             Controls.Add(groupBox2);
             Controls.Add(btnCancelar);
             Controls.Add(btnRegistrar);
@@ -275,5 +286,6 @@
         private RadioButton radEliminar;
         private RadioButton radModificar;
         private RadioButton radAgregar;
+        private Button button1;
     }
 }

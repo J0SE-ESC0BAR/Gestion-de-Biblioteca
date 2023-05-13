@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/qwCZWObG0+yAsMlSPZPqLvV52i2SBortWgRrWwcl4rsNA2nHPd09/bHKoKoc37DzpxO/eC9nKD3206/KML9uA==",
+  "dgSpecHash": "ufJJBQJ2BS6QwpYqe/VLtDZcpGppCK0lb1CS0VSdlRl8zuTQKuML2z5qPCOUIOIMQEN41SriALndVlsnOJd2WA==",
   "success": true,
-  "projectFilePath": "G:\\JAEM\\ESTUDIOS\\PROGRAMACION\\C#\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "G:\\Desktop\\Gestion-de-Biblioteca\\Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JOSE ESCOBAR\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\JOSE ESCOBAR\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -142,6 +142,13 @@ namespace Biblioteca
             txtDireccion.Enabled = false;
             txtTelefono.Enabled = false;
             txtEmail.Enabled = false;
+
+            txtId.Clear();
+            txtNombre.Clear();
+            txtApellido.Clear();
+            txtDireccion.Clear();
+            txtTelefono.Clear();
+            txtEmail.Clear();
         }
         private void txtEnabled()
         {

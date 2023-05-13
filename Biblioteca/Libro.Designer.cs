@@ -74,7 +74,7 @@
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(label2);
-            groupBox1.Location = new Point(12, 12);
+            groupBox1.Location = new Point(22, 127);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(312, 218);
             groupBox1.TabIndex = 2;
@@ -145,7 +145,7 @@
             // 
             // button_Registrar
             // 
-            button_Registrar.Location = new Point(204, 236);
+            button_Registrar.Location = new Point(214, 351);
             button_Registrar.Name = "button_Registrar";
             button_Registrar.Size = new Size(96, 32);
             button_Registrar.TabIndex = 3;
@@ -155,7 +155,7 @@
             // 
             // button_Cancelar
             // 
-            button_Cancelar.Location = new Point(42, 236);
+            button_Cancelar.Location = new Point(52, 351);
             button_Cancelar.Name = "button_Cancelar";
             button_Cancelar.Size = new Size(96, 32);
             button_Cancelar.TabIndex = 4;
@@ -163,15 +163,15 @@
             button_Cancelar.UseVisualStyleBackColor = true;
             button_Cancelar.Click += button_Cancelar_Click;
             // 
-            // RegistrarLibro
+            // Libro
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(336, 303);
+            ClientSize = new Size(471, 405);
             Controls.Add(button_Cancelar);
             Controls.Add(button_Registrar);
             Controls.Add(groupBox1);
-            Name = "RegistrarLibro";
+            Name = "Libro";
             Text = "Registro de libro";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
