@@ -11,21 +11,16 @@ namespace Biblioteca
             InitializeComponent();
         }
 
-        private void btn_RegistrarCliente_Click(object sender, EventArgs e)
+        private void btn_mdificarLibro_Click(object sender, EventArgs e)
         {
-            RegistrarCliente registrarClienteForm = new RegistrarCliente();
-            registrarClienteForm.ShowDialog();
+            Libro mdificarLibro = new Libro(this);
+            mdificarLibro.Show();
         }
 
-        private void btn_RegistrarLibro_Click(object sender, EventArgs e)
+        private void btn_mdificarUsuario_Click(object sender, EventArgs e)
         {
-            RegistrarLibro registrarLibro = new RegistrarLibro(this);
-            registrarLibro.Show();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            Usuario mdificarUsuario = new Usuario();
+            mdificarUsuario.ShowDialog();
         }
     }
 

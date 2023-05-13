@@ -37,8 +37,6 @@ G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6
 G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.csproj.AssemblyReference.cache
 G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.Form1.resources
-G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.RegistrarCliente.resources
-G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.RegistrarLibro.resources
 G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.csproj.GenerateResource.cache
 G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
 G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.AssemblyInfoInputs.cache
@@ -50,3 +48,5 @@ G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6
 G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.pdb
 G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.genruntimeconfig.cache
 G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\ref\Biblioteca.dll
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.Libro.resources
+G:\JAEM\ESTUDIOS\PROGRAMACION\C#\Gestion-de-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.Usuario.resources

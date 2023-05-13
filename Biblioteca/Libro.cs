@@ -12,10 +12,10 @@ using static System.Windows.Forms.DataFormats;
 
 namespace Biblioteca
 {
-    public partial class RegistrarLibro : Form
+    public partial class Libro : Form
     {
         private Form1 form1;
-        public RegistrarLibro(Form1 form1)
+        public Libro(Form1 form1)
         {
             InitializeComponent();
             InitializeDateTimePicker();
@@ -54,7 +54,6 @@ namespace Biblioteca
                     command.Parameters.AddWithValue("@Editorial", textBox_Editorial.Text);
                     command.Parameters.AddWithValue("@AñoPublicacion", dateTimePicker_AñoPublicacion.Value);
                     command.Parameters.AddWithValue("@Genero", textBox_Genero.Text);
-                    command.Parameters.AddWithValue("@Paginas", numericUpDown_Paginas.Value);
 
                     command.ExecuteNonQuery();
                 }
